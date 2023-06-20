@@ -125,3 +125,50 @@ body {
   border: 1px solid white;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .navbar__logo {
+    margin-left: 20px;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar__login {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .container__text {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .container__text .container--button-start,
+  .container__text .container--button-now {
+    font-size: 12px;
+    padding: 6px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container__text h1 {
+    font-size: 48px;
+  }
+
+  .container__text p {
+    font-size: 16px;
+  }
+}
+
+.container__img img {
+  max-width: 100%;
+  height: auto;
+}
