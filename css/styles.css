@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(238, 130, 143), black);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+  font-family: "Geologica", sans-serif;
+}
+
+.navbar__logo {
+  font-size: 18px;
+  margin-left: 70px;
+  color: white;
+}
+
+.navbar__menu {
+  display: flex;
+  font-size: 12px;
+  gap: 46px;
+  color: black;
+}
+
+.navbar__menu a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar__menu a:hover {
+  transform: scale(1.1, 1.1);
+  color: white;
+  font-weight: bold;
+}
+
+.navbar__login {
+  display: flex;
+  margin-right: 100px;
+  gap: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.navbar__login button {
+  transition: 0.3s;
+}
+
+.navbar__login button:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.navbar__login .login-btn {
+  padding: 5px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: "Geologica", sans-serif;
+}
+
+.navbar__login .start-btn {
+  padding: 5px 16px;
+  border-radius: 3px;
+  background: #f5143a;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #f5143a;
+  font-family: "Geologica", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* gap: 500px; */
+  padding: 4rem;
+}
+
+.container__text h1 {
+  font-size: 80px;
+  color: black;
+  font-family: "Geologica", sans-serif;
+}
+
+.container__text p {
+  font-size: 20px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+
+.container__text button {
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container__text button:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.container__text .container--button-start {
+  font-size: 14px;
+  padding: 8px 22px;
+  border-radius: 3px;
+  background: #f5143a;
+  color: white;
+  border: 1px solid #f5143a;
+}
+
+.container__text .container--button-now {
+  font-size: 14px;
+  padding: 8px 22px;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
